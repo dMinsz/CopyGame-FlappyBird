@@ -1,5 +1,5 @@
 {
-    "name": "PlayerInputActions",
+    "name": "InputActions",
     "maps": [
         {
             "name": "Player",
@@ -24,6 +24,34 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "3f72a465-6f8c-4844-b5ec-b9f8b760f88f",
+            "actions": [
+                {
+                    "name": "Play",
+                    "type": "Button",
+                    "id": "d145ac8e-826b-4510-ad1a-edd41fe19288",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "193ffbcf-cd71-4047-86a8-1d1280832943",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Play",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
